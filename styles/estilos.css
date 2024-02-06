@@ -1,0 +1,242 @@
+/*Fuente titillium*/
+@font-face {
+    font-family: 'Titillium Web';
+    src: url(/Titillium/TitilliumWeb-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium Web Black';
+    src: url(/Titillium/TitilliumWeb-Black.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium Web Bold';
+    src: url(/Titillium/TitilliumWeb-Bold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium Web BoldItalic';
+    src: url(/Titillium/TitilliumWeb-BoldItalic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium Web ExtraLight';
+    src: url(/Titillium/TitilliumWeb-ExtraLight.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium ExtraLightItalic';
+    src: url(/Titillium/TitilliumWeb-ExtraLightItalic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium Web Italic';
+    src: url(/Titillium/TitilliumWeb-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium Web Light';
+    src: url(/Titillium/TitilliumWeb-Light.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium Web LightItalic';
+    src: url(/Titillium/TitilliumWeb-LightItalic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium Web SemiBold';
+    src: url(/Titillium/TitilliumWeb-SemiBold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Titillium Web SemiBoldItalic';
+    src: url(/Titillium/TitilliumWeb-SemiBoldItalic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo{
+    width:90px;
+    height: 90px;
+    padding-left: 5px;
+}
+.cabecera{
+    padding: 0;
+    background-color: rgb(202, 159, 94);
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    width:100%;
+    text-align: center;
+}
+
+.icono{
+    width:30px;
+    height:30px;
+    padding:10px;
+}
+ .cajadelogos{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+ }
+
+ .menu{
+    padding: 0;
+    display: flex;
+    width:100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .btn-container {
+    position: relative; /* Contenedor relativo para posicionar elementos internos */
+    height: 50px;
+}
+
+ .btnmenu{
+    max-height: 30px;
+    background-color: rgba(255, 0, 0, 0);
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+ }
+ 
+ .btnmenu a{
+    text-decoration: none;
+ }
+
+ .btntext{
+    text-align:center;
+    font-family: 'Titillium Web Bold', sans-serif;
+    color: black;
+    font-size: 14px;
+ }
+
+ .btntext:hover{
+    text-shadow: 1px 1px 0px #e6a646;
+ }
+
+ /*INGRESOS*/
+ .dropIngresos{
+    display: none;
+    background-color: white;
+    position: absolute;
+    min-width: 200px;
+    border-style: hidden;
+    border-bottom-right-radius: 10px;
+ }
+
+ .btnmenu:hover .dropIngresos{
+    display: block;
+ }
+
+ /*ÓRDENES*/
+ .dropOrdenes{
+    display: none;
+    background-color: white;
+    position: absolute;
+    min-width: 200px;
+    border-style: hidden;
+    border-bottom-right-radius: 10px;
+ }
+
+ .btnmenu:hover .dropOrdenes{
+    display: block;
+ }
+
+ /*AUDIENCIAS*/
+ .dropAudiencias{
+    display: none;
+    background-color: white;
+    position: absolute;
+    min-width: 200px;
+    border-style: hidden;
+    border-bottom-right-radius: 10px;
+ }
+
+ .btnmenu:hover .dropAudiencias{
+    display: block;
+ }
+
+ .cajita{
+    border-bottom-style: inset;
+    border-right-style: inset;
+    border-width: 1px;
+    border-bottom-right-radius: 10px;
+    border-color: #ffff black black #ffff;
+    padding-top: 10px;
+ }
+
+ .cajita a{
+    font-family: 'Titillium Web Bold', sans-serif;
+    color: black;
+ }
+
+ .cajita a:hover{
+    text-shadow: 1px 1px 0px #e6a646;
+ }
+
+ .fondo{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+ }
+
+ .pie{
+    height:1px;
+ }
+
+ .pietxt{
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+ }
+
+ .contenido{
+   font-family: 'Titillium Web Bold', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+ }
+
+ .crud-header{
+   font-family: 'Titillium Web', sans-serif;
+   color: black;
+   text-align: center;
+   font-size: 25px;
+ }
+ .contenido ul{
+   list-style: none;
+ }
+
+ .contenido a{
+   text-decoration: none;
+   color: black
+ }
+
+ .contenido a:hover{
+   color:#e6a646
+ }
